@@ -1,0 +1,36 @@
+.sidebar {
+  height: auto;
+  background-color: #276fb9;
+  min-width: 200px;
+  width: 20%;
+  color: white;
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+.noFilesWrapper {
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noFilesLoadFilesButton {
+  height: 40px;
+  width: 120px;
+}
+
+.fileDiv {
+  padding: 10px 5px;
+  padding-right: 0px;
+}
+
+.fileDiv:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.fileDivSelected {
+  background-color: purple;
+}
